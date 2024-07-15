@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - My Blog</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Example styling for blog list items */
+        .blogs-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr; /* Two columns layout */
+            gap: 20px; /* Gap between items */
+        }
+        .blog-item {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+        }
+        .blog-item img {
+            max-width: 100px; /* Adjust image size as needed */
+            margin-right: 20px;
+        }
+        .blog-item-content {
+            flex: 1;
+        }
+        .blog-item-title {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        .blog-item-author {
+            color: #666;
+            margin-bottom: 10px;
+        }
+        .blog-item-intro {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="main-content">
+        <h2>Latest Blog Posts</h2>
+        <div class="blogs-list">
+          
+            <div class="blog-item">
+                <img src="images/images10.jpeg" alt="Blog 1">
+                <div class="blog-item-content">
+                    <div class="blog-item-title">Introduction to HTML</div>
+                    <div class="blog-item-author">John Doe</div>
+                    <div class="blog-item-intro">Learn the basics of HTML and how to create your first web page.</div>
+                </div>
+            </div>
+            
+       
+            <div class="blog-item">
+                <img src="images/image9.jpeg" alt="Blog 2">
+                <div class="blog-item-content">
+                    <div class="blog-item-title">CSS Styling Techniques</div>
+                    <div class="blog-item-author">Jane Smith</div>
+                    <div class="blog-item-intro">Explore advanced CSS techniques for beautiful and responsive designs.</div>
+                </div>
+            </div>
+            
+            <div class="blog-item">
+              <img src="images/image7.jpeg" alt="Blog 2">
+              <div class="blog-item-content">
+                  <div class="blog-item-title">WEB TECHNOLOGY</div>
+                  <div class="blog-item-author">Jane Smith</div>
+                  <div class="blog-item-intro">Cannot explore anything</div>
+              </div>
+          </div>
+          <div class="blog-item">
+            <img src="images/image2.jpeg" alt="Blog 2">
+            <div class="blog-item-content">
+                <div class="blog-item-title">AI in hands of few powerful people</div>
+                <div class="blog-item-author">Jane Smith</div>
+                <div class="blog-item-intro">Concentration of Power in the hands of a few has always been a problem in human history.</div>
+            </div>
+        </div>
+        <div class="blog-item">
+          <img src="images/image1.jpeg" alt="Blog 2">
+          <div class="blog-item-content">
+              <div class="blog-item-title">AI and the human mind</div>
+              <div class="blog-item-author">Jane Smith</div>
+              <div class="blog-item-intro">Explore advanced AI Tools for beautiful and responsive conversations.</div>
+          </div>
+      </div>
+            
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 My Blog. All rights reserved.</p>
+    </footer>
+</body>
+</html>
